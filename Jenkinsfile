@@ -1,16 +1,8 @@
 pipeline {
     agent any
-<<<<<<< HEAD
-    stages{
-        stage('Clone repo'){
-            steps{
-=======
-
     stages {
-
         stage('Clone Code') {
             steps {
->>>>>>> afd6683 (change the dockerfile and CI/CD pipeline and add terraform infra)
                 git branch: 'main', url: 'https://github.com/akkig5175/DevOps-Project-Two-Tier-Flask-App.git'
             }
         }
